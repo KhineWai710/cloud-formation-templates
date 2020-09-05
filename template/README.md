@@ -1,7 +1,3 @@
-# cloud_track
-
-Cloud formation template for Network and Web Servers.
-
 # Finished & tested Cloudformation Templates
 Consider changing the key name to a proper one at the Webserver template line 9
 
@@ -9,4 +5,3 @@ Consider changing the key name to a proper one at the Webserver template line 9
 aws --region eu-central-1 cloudformation create-stack --template-body file://template.yaml --stack-name stackname --capabilities CAPABILITY_IAM
 # Aws-cli command to update a stack:
 aws --region eu-central-1 cloudformation update-stack --template-body file://template.yaml --stack-name stackname
-~                                     
